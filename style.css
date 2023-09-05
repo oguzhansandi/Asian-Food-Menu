@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f5f8;
+    font-family: "Zilla Slab", serif;
+  }
+  
+  h2 {
+    font-family: "Great Vibes", cursive;
+    text-align: center;
+    color: #ff6a23;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+  }
+  .btn-item {
+    margin-left: 15px;
+  }
+
+  .card {
+    width: 300px; /* Kart genişliği */
+  }
+
+
+
+  .card-img {
+    max-width: 100%;
+    max-height: 100%; /* Resmin kartın yüksekliği kadar olmasını sağlar */
+  }
